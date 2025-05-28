@@ -7,9 +7,14 @@ import { RecoilRoot } from "recoil";
 import RecoilCounter from "./RecoilCounter";
 import RecoilTodo from "./RecoilTodo";
 import Counter from "./Counter";
+import RecoilTodoUp from "./RecoliTodoUp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Counter />);
+root.render(
+  <RecoilRoot>
+    <RecoilTodoUp />
+  </RecoilRoot>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
