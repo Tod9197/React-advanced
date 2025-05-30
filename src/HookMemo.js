@@ -10,13 +10,13 @@ export default function HookMemo() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
-  const increment = () => setCount1((c) => c + 1);
-  const decrement = () => setCount2((c) => c - 1);
+  const increment = useCallback(() => setCount1((c) => c + 1), []);
+  const decrement = useCallback(() => setCount2((c) => c - 1), []);
 
-  const heavyProcess = () => {
+  const heavyProcess = useMemo(() => {
     sleep(1000);
     return count1 + 100;
-  };
+  }, [count1]);
 
   return (
     <>
