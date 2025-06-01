@@ -10,9 +10,10 @@ import Counter from "./Counter";
 import RecoilTodoUp from "./RecoliTodoUp";
 import HookMemo from "./HookMemo";
 import HookTransition from "./HookTransition";
+import HookDeferred from "./HookDeffered";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HookTransition />);
+root.render(<HookDeferred />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
