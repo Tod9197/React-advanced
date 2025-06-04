@@ -12,9 +12,9 @@ export function BookDetails({ isbn }) {
     <ul>
       <li>ISBN:{book?.isbn}</li>
       <li>書籍名:{book?.title}</li>
-      <li>販売価格:{book?.price}</li>
-      <li>概要:{book?.summary}</li>
-      <li>配布サンプル:{book?.download ? "あり" : "なし"}</li>
+      <li>価格:{book?.price}</li>
+      <li>書籍概要:{book?.summary}</li>
+      <li>サンプル(配布):{book?.download ? "あり" : "なし"}</li>
     </ul>
   );
 }
