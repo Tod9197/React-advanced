@@ -11,7 +11,7 @@ export default function RecoilCounter() {
 
   return (
     <>
-      <button onClick={handleClick}>カウント</button>
+      <button onClick={handleClick}>カウントアップ</button>
       <button onClick={() => resetCounter()}>リセット</button>
       <p>{counter}回、クリックされました。</p>
     </>

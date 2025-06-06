@@ -19,7 +19,7 @@ export default function HookTransition() {
   return (
     <>
       <select onChange={handleChange}>
-        <option value="">選択してください</option>
+        <option value="">この中から選択してください</option>
         {books.map((b) => (
           <option key={b.isbn} value={b.isbn}>
             {b.title}
