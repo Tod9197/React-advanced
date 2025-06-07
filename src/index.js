@@ -12,9 +12,11 @@ import HookMemo from "./HookMemo";
 import HookTransition from "./HookTransition";
 import HookDeferred from "./HookDeffered";
 import HookCustom from "./HookCustom";
+import { RouterProvider } from "react-router-dom";
+import routerBasic from "./routerBasic";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HookCustom />);
+root.render(<RouterProvider router={routerBasic} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
