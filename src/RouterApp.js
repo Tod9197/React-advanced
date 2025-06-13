@@ -6,15 +6,15 @@ export default function RouterApp() {
       <ul>
         <li>
           <Link to="/" />
-          トップ
+          トップへ
         </li>
         <li>
           <Link to="/article" />
-          公開記事です
+          公開記事
         </li>
         <li>
           <Link to="/about" />
-          このサイトについてのこと
+          このサイトについて
         </li>
       </ul>
       <hr />
