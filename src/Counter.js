@@ -13,8 +13,8 @@ export default function Counter() {
 
   return (
     <div>
-      <button onClick={handlePlus}>プラスする</button>
-      <button onClick={handleMinus}>マイナスする</button>
+      <button onClick={handlePlus}>カウントアップ</button>
+      <button onClick={handleMinus}>カウントダウン</button>
       <p>{count}回、クリックされました。</p>
     </div>
   );
