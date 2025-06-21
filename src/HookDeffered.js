@@ -12,7 +12,7 @@ export default function HookDeferred() {
   return (
     <>
       <input type="text" value={text} onChange={handleChange} />
-      {[...Array(100)].map((e, index) => (
+      {[...Array(10)].map((e, index) => (
         <p key={index}>{deferText}</p>
       ))}
     </>

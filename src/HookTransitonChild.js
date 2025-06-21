@@ -31,7 +31,7 @@ export const CommentList = memo(function ({ src, isPending }) {
 });
 
 function CommentItem({ src }) {
-  sleep(1000);
+  sleep(2000);
   return (
     <li>
       {src.body}({src.rank})
