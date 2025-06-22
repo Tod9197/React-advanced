@@ -1,3 +1,3 @@
 export default function ArticlePage() {
-  return <h1>ArtcilePageです。</h1>;
+  return <h1>ArtcilePage</h1>;
 }

@@ -22,7 +22,7 @@ export default function HookMemo() {
     <>
       <div>
         <MyButton id="btn1" handleClick={increment}>
-          カウント
+          カウントアップ
         </MyButton>
         <MyCounter id="c1" value={count1}>
           {heavyProcess}
