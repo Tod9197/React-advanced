@@ -17,7 +17,7 @@ export default function useCounter(init, step) {
       count: init,
     }
   );
-  useDebugValue(state.count >= 10 ? "10 over" : "10 less");
+  useDebugValue(state.count >= 16 ? "16 over" : "16 less");
 
   const handleUp = () => dispatch({ type: "update", step });
   const handleDown = () => dispatch({ type: "update", step: -step });

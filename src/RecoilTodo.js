@@ -43,7 +43,7 @@ export default function RecoilTodo() {
   return (
     <div>
       <label>
-        やること :
+        Todo :
         <input type="text" value={title} onChange={handleChangeTitle} />
       </label>
       <button type="button" onClick={handleAdd}>
