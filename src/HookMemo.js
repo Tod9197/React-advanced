@@ -14,8 +14,8 @@ export default function HookMemo() {
   const decrement = useCallback(() => setCount2((c) => c - 1), []);
 
   const heavyProcess = useMemo(() => {
-    sleep(1000);
-    return count1 + 100;
+    sleep(2000);
+    return count1 + 200;
   }, [count1]);
 
   return (

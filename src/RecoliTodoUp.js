@@ -5,11 +5,11 @@ import "./StateTodo.css";
 
 export default function RecoilTodoUp() {
   const [title, setTitle] = useState("");
-  // Atomi,Selectorから値、セッターを取得
+  // Atomi,Selectorから値とセッターを取得
   const [todo, setTodo] = useRecoilState(todoListSelector);
   const [ids, setIds] = useRecoilState(idsAtom);
 
-  // テキストボックスへの入力をStateに反映
+  // テキストボックスの入力をStateに反映
   const handleChangeTitle = (e) => setTitle(e.target.value);
 
   // 追加ボタンクリックでTodo項目を追加
