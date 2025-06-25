@@ -1,3 +1,3 @@
 export default function TopPage() {
-  return <h1>トップページです。</h1>;
+  return <h1>トップページ</h1>;
 }
