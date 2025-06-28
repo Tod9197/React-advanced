@@ -2,14 +2,14 @@ const books = [
   {
     isbn: "978-4-297-13288-0",
     title: "改訂3版JavaScript本格入門",
-    price: 3320,
+    price: 3240,
     summary: "ECMAScript 2022に対応した内容で約200ページ増の大幅改訂。",
     download: true,
   },
   {
     isbn: "978-4-7981-7613-0",
     title: "Androidアプリ開発の教科書 第3版 Kotlin対応 ",
-    price: 3300,
+    price: 3280,
     summary: "「Androidアプリ開発の基礎力」を習得しよう。",
     download: false,
   },
@@ -23,7 +23,7 @@ const books = [
   {
     isbn: "978-4-297-13062-6",
     title: "Rails 7ポケットリファレンス",
-    price: 3560,
+    price: 3580,
     summary: "Ruby on Railsを使いこなすリファレンス。",
     download: false,
   },
